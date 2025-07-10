@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/*? common button property */
+/*? buttons common property */
 .common_btn {
   padding: 8px 14px;
   font-size: 16px;
@@ -15,11 +15,12 @@
   border: none;
   border-radius: 10px;
 }
-/*? common button property */
+/*? buttons common property */
 
 /*? header section start here */
 #header_section {
   background-image: url("../Assets/Hero-bg.png");
+  padding-bottom: 200px;
 }
 
 /*? nav bar Starts here */
@@ -42,4 +43,26 @@ nav {
   font-family: "Raleway", sans-serif;
 }
 /*? nav bar Ends here */
+/*? banner section Starts here */
+#banner_section {
+  max-width: 905px;
+  margin: 0 auto;
+  height: 237px;
+  text-align: center;
+  padding-top: 60px;
+}
+.banner_heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 65px;
+  padding-bottom: 37px;
+}
+.banner_btn {
+  width: 174px;
+}
+/*? banner section Ends here */
 /*? header section end here */
+/*?  Main section Starts here  */
+
+
+
+/*?  Main section Ends here  */
