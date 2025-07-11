@@ -18,6 +18,15 @@ body {
   color: #ffffff;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 2px 4px 6px rgba(78, 77, 77, 0.3),-2px -4px 6px rgba(65, 64, 64, 0.3);
+  transition: all 0.3s linear;
+}
+.common_btn:hover {
+  color: #303031;
+  font-weight: 700;
+  background: linear-gradient(to right, #bff1fa, #37797e);
+  box-shadow: 2px 4px 6px rgba(78, 77, 77, 0.5),-2px -4px 6px rgba(65, 64, 64, 0.6);
 }
 /*? buttons common property */
 
