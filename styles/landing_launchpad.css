@@ -273,3 +273,44 @@ nav {
 }
 /*? Let’s Get In Touch Section Ends here */
 /*?  Main section Ends here  */
+
+/*? footer section Starts here */
+#footer_section {
+  background-color: #ffffff;
+  height: 428px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 100px;
+}
+.footer_details {
+  width: 531px;
+  height: 177px;
+}
+.footer_logo_name {
+  font-family: "Inter", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+}
+.footer_subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  color: #77777e;
+  margin-block: 20px;
+}
+.footer_nav_link_section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer_nav_link_section li {
+  list-style: none;
+}
+.footer_nav_link_section li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #77777e;
+}
+/*? footer section Ends here */
