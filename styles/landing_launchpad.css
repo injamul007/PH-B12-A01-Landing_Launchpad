@@ -230,20 +230,20 @@ nav {
   font-size: 97px;
   font-weight: 700;
 }
-.form_field {
+.right_side {
   width: 497px;
   height: 490px;
 }
-.form_field label {
+.right_side label {
   font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 600;
 }
-.form_field input {
+.right_side input {
   font-family: "Inter", sans-serif;
   width: 100%;
   height: 70px;
-  border: none;
+  border: 2px solid #e8e8eb;
   border-radius: 16px;
   padding: 10px 20px;
   margin-bottom: 20px;
@@ -251,12 +251,12 @@ nav {
   color: #303031;
   font-size: 19px;
 }
-.form_field input::placeholder,textarea::placeholder {
+.right_side input::placeholder,textarea::placeholder {
   font-family: "Inter", sans-serif;
   font-size: 19px;
 }
 
-.form_field textarea {
+.right_side textarea {
   font-family: "Inter", sans-serif;
   padding: 10px 20px;
   width: 100%;
@@ -264,6 +264,7 @@ nav {
   color: #303031;
   font-size: 19px;
   border-radius: 16px;
+  border: 2px solid #e8e8eb;
   margin-block: 14px;
 }
 .get_in_touch_btn {
