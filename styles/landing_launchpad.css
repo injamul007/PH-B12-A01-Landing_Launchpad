@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f7f7f7;
+}
+
 /*? buttons common property */
 .common_btn {
   padding: 8px 14px;
@@ -127,6 +131,62 @@ nav {
   color: #77777e;
 }
 /*? Productive user section Ends here */
+/*? Users Feedback Section Stars here */
+#user_feedback_section {
+  height: 342px;
+}
+.feedback_card {
+  width: 366px;
+}
 
+#user_feedback_section h2 {
+  text-align: center;
+}
+
+.icon_start_repeat {
+  width: 100px;
+  height: 20px;
+  background-image: url("../Assets/icon-star.png");
+  background-repeat: repeat-x;
+  background-size: 20px 20px;
+}
+.feedback_title {
+  font-family: "Inter", sans-serif;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.feedback_subtitle {
+  margin-block: 20px;
+  font-size: 18px;
+}
+.feedback_card_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  gap: 20px;
+}
+.feedback_card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.individual_review_box img {
+  border-radius: 20px;
+}
+.individual_review_box {
+  display: flex;
+  gap: 30px;
+}
+.reviewer_title {
+  color: #77777e;
+}
+.reviewer_subtitle {
+  color: #b8b8bd;
+  font-weight: 700;
+}
+/*? Users Feedback Section Ends here */
 
 /*?  Main section Ends here  */
