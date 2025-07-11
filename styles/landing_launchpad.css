@@ -67,11 +67,11 @@ nav {
 #main_section {
   max-width: 1140px;
   margin: 0 auto;
-  height: 328px;
   margin-block: 116px;
 }
 /*? action section starts here */
 #action_section {
+  height: 328px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -92,7 +92,41 @@ nav {
   border-radius: 30px;
 }
 /*? action section ends here */
-
+/*? Productive user section Starts here */
+#productive_user_section {
+  height: 306px;
+  text-align: center;
+  margin-block: 116px;
+  background-color: #e0defd;
+  border-radius: 30px;
+}
+.section_title {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  padding-block: 40px;
+}
+.user_subscriber_details {
+  max-width: 856px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 121px;
+}
+.subscriber_title {
+  font-size: 80px;
+  font-weight: 800;
+  color: #4E47FF;
+}
+.details_box {
+  font-family: "Inter", sans-serif;
+}
+.subscriber_subtitle {
+  font-size: 20px;
+  color: #77777e;
+}
+/*? Productive user section Ends here */
 
 
 /*?  Main section Ends here  */
